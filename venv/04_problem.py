@@ -1,0 +1,6 @@
+s=set()
+s.add(10)
+s.add("10")
+s.add(10.0)
+print(s)
+print(len(s))
