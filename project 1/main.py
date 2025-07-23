@@ -3,7 +3,9 @@
 -1 for water
 0 for gun
 '''
-computer= -1
+import random
+
+computer= random.choice([-1,1,0])
 youstr= input("enter your choice :")
 youDic= {"s":1,"w":-1,"g":0}
 you= youDic[youstr]
